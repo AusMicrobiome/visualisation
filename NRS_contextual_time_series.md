@@ -216,7 +216,7 @@ tb
 
 ggsave(filename="~/nrs_temp_surf.pdf", height=5, width=12)
 ```
-
+![example plot](/nrs_temp_surf.png)
 
 Boxplots for Nitrate/Nitrite
 
