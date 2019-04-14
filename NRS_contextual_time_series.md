@@ -18,7 +18,7 @@ The input data is contained in Bacteria.csv and Contextual.csv downloaded from t
 load the required R libraries
 ```
 library(tidyverse)
-library(oce) # color schhemes for oceanography 
+library(oce) # color schemes for oceanography 
 library(gridExtra)
 library(gtable)
 library(grid)
