@@ -9,6 +9,9 @@ output: html_notebook
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook that provides the code for presenting boxplots of the monthly ranges in contextual measurements such as Temperature, nutrient concentrations and cell numbers.
 
+![example plot](/nrs_east_temp.png)
+
+
 The input data is contained in Bacteria.csv and Contextual.csv downloaded from the processed data tab of the Australian Microbiome [data portal](https://data.bioplatforms.com/organization/about/australian-microbiome) 
 
 
@@ -21,7 +24,7 @@ library(gtable)
 library(grid)
 ```
 
-
+Load the required data
 
 ```
 path="~/Downloads/AustralianMicrobiome-2019-04-10T184531-csv/"
@@ -31,7 +34,7 @@ contextual<-read_csv("contextual.csv")
   
 ```
 
-
+Filter to keep only the samples for NRS sites
 
 ```{r}
 
